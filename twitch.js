@@ -1,7 +1,12 @@
 // FCC Twitch App
 
 $(document).ready(function(){
-    const streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "eleaguetv", "cereth", "luckyy_and_bw", "jameswerk", "r1534g41n5t", "sheikh17", "eleaguetv", "drezzy", "skipnho", "syndicate", "speedgaming", "firedragon", "x5_pig", "swiftor", "swizzzy", "bayliun", "lobosjr", "earaylewis", "naxannlive", "aydren", "orb"];
+    const streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", 
+                       "habathcx", "RobotCaleb", "noobs2ninjas", "eleaguetv", "cereth", 
+                       "luckyy_and_bw", "jameswerk", "r1534g41n5t", "sheikh17", "eleaguetv", 
+                       "drezzy", "skipnho", "syndicate", "speedgaming", "firedragon", "x5_pig", 
+                       "swiftor", "swizzzy", "bayliun", "lobosjr", "earaylewis", "naxannlive", 
+                       "aydren", "orb"];
     
     let url = 'https://api.twitch.tv/kraken/streams/';
         
