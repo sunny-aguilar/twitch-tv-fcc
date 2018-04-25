@@ -29,7 +29,7 @@ $(document).ready(function(){
     };
 
     function addStreamer(data) {
-        if (data.stream == null) {
+        if ( data.stream == null ) {
             // console.log('offline');
             // console.log(data);
             
